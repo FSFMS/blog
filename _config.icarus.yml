@@ -105,16 +105,16 @@ head:
 navbar:
     # Navigation menu items
     menu:
-        Home: /
+#        Home: /
+        About: /about
         Archives: /archives
         Categories: /categories
         Tags: /tags
-        About: /about
     # Links to be shown on the right of the navigation bar
     links:
         Download on GitHub:
             icon: fab fa-github
-            url: https://github.com/ppoffice/hexo-theme-icarus
+            url: https://github.com/FSFMS/readme
 # Page footer configurations
 footer:
     # Links to be shown on the right of the footer section
@@ -127,7 +127,7 @@ footer:
             url: https://creativecommons.org/licenses/by/4.0/
         Download on GitHub:
             icon: fab fa-github
-            url: https://github.com/ppoffice/hexo-theme-icarus
+            url: https://github.com/FSFMS/readme
 # Article related configurations
 article:
     # Code highlight settings
@@ -140,71 +140,71 @@ article:
         # Default folding status of the code blocks. Can be "", "folded", "unfolded"
         fold: unfolded
     # Whether to show estimated article reading time
-    readtime: true
+    readtime: false
     # Whether to show updated time. For "auto", shows article update time only when page.updated is set and it is different from page.date
-    update_time: true
+    update_time: false
     # Article licensing block
-    licenses:
-        Creative Commons:
-            icon: fab fa-creative-commons
-            url: https://creativecommons.org/
-        Attribution:
-            icon: fab fa-creative-commons-by
-            url: https://creativecommons.org/licenses/by/4.0/
-        Noncommercial:
-            icon: fab fa-creative-commons-nc
-            url: https://creativecommons.org/licenses/by-nc/4.0/
+#    licenses:
+#        Creative Commons:
+#            icon: fab fa-creative-commons
+#            url: https://creativecommons.org/
+#        Attribution:
+#            icon: fab fa-creative-commons-by
+#            url: https://creativecommons.org/licenses/by/4.0/
+#        Noncommercial:
+#            icon: fab fa-creative-commons-nc
+#            url: https://creativecommons.org/licenses/by-nc/4.0/
 # Search plugin configurations
 # https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/Search/
 search:
     type: insight
 # Comment plugin configurations
 # https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/Comment/
-comment:
-    type: disqus
-    # Disqus shortname
-    shortname: ''
+#comment:
+#    type: disqus
+#    # Disqus shortname
+#    shortname: ''
 # Donate plugin configurations
 # https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/Donation/
-donates:
-    # "Afdian.net" donate button configurations
-    -
-        type: afdian
-        # URL to the "Afdian.net" personal page
-        url: ''
-    # Alipay donate button configurations
-    -
-        type: alipay
-        # Alipay qrcode image URL
-        qrcode: ''
-    # "Buy me a coffee" donate button configurations
-    -
-        type: buymeacoffee
-        # URL to the "Buy me a coffee" page
-        url: ''
-    # Patreon donate button configurations
-    -
-        type: patreon
-        # URL to the Patreon page
-        url: ''
-    # Paypal donate button configurations
-    -
-        type: paypal
-        # Paypal business ID or email address
-        business: ''
-        # Currency code
-        currency_code: USD
-    # Wechat donate button configurations
-    -
-        type: wechat
-        # Wechat qrcode image URL
-        qrcode: ''
+#donates:
+#    # "Afdian.net" donate button configurations
+#    -
+#        type: afdian
+#        # URL to the "Afdian.net" personal page
+#        url: ''
+#    # Alipay donate button configurations
+#    -
+#        type: alipay
+#        # Alipay qrcode image URL
+#        qrcode: ''
+#    # "Buy me a coffee" donate button configurations
+#    -
+#        type: buymeacoffee
+#        # URL to the "Buy me a coffee" page
+#        url: ''
+#    # Patreon donate button configurations
+#    -
+#        type: patreon
+#        # URL to the Patreon page
+#        url: ''
+#    # Paypal donate button configurations
+#    -
+#        type: paypal
+#        # Paypal business ID or email address
+#        business: ''
+#        # Currency code
+#        currency_code: USD
+#    # Wechat donate button configurations
+#    -
+#        type: wechat
+#        # Wechat qrcode image URL
+#        qrcode: ''
 # Share plugin configurations
 # https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/Share/
-share:
-    type: sharethis
-    # URL to the ShareThis share plugin script
-    install_url: ''
+#share:
+#    type: sharethis
+#    # URL to the ShareThis share plugin script
+#    install_url: ''
 # Sidebar configurations.
 # Please be noted that a sidebar is only visible when it has at least one widget
 sidebar:
@@ -225,11 +225,11 @@ widgets:
         position: left
         type: profile
         # Author name
-        author: Your name
+        author: FSFMS
         # Author title
-        author_title: Your title
+#        author_title: Your title
         # Author's current location
-        location: Your location
+#        location: Your location
         # URL or path to the avatar image
         avatar: 
         # Whether show the rounded avatar image
@@ -258,23 +258,23 @@ widgets:
     # Table of contents widget configurations
     -
         # Where should the widget be placed, left sidebar or right sidebar
-        position: left
+        position: right
         type: toc
         # Whether to show the index of each heading
         index: true
         # Whether to collapse sub-headings when they are out-of-view
         collapsed: true
         # Maximum level of headings to show (1-6)
-        depth: 3
+        depth: 2
     # Recommendation links widget configurations
-    -
-        # Where should the widget be placed, left sidebar or right sidebar
-        position: left
-        type: links
-        # Names and URLs of the sites
-        links:
-            Hexo: https://hexo.io
-            Bulma: https://bulma.io
+#    -
+#        # Where should the widget be placed, left sidebar or right sidebar
+#        position: left
+#        type: links
+#        # Names and URLs of the sites
+#        links:
+#            Hexo: https://hexo.io
+#            Bulma: https://bulma.io
     # Categories widget configurations
     -
         # Where should the widget be placed, left sidebar or right sidebar
@@ -296,34 +296,34 @@ widgets:
         position: left
         type: tags
     # Google FeedBurner email subscription widget configurations
-    -
-        # Where should the widget be placed, left sidebar or right sidebar
-        position: left
-        type: subscribe_email
-        # Hint text under the email input
-        description: 
-        # Feedburner ID
-        feedburner_id: ''
-    # Google AdSense unit configurations
-    -
-        # Where should the widget be placed, left sidebar or right sidebar
-        position: left
-        type: adsense
-        # AdSense client ID
-        client_id: ''
-        # AdSense AD unit ID
-        slot_id: ''
-    # Follow.it email subscription widget configurations
-    -
-        # Where should the widget be placed, left sidebar or right sidebar
-        position: left
-        type: followit
-        # Hint text under the email input
-        description: 
-        # Subscription form action URL
-        action_url: ''
-        # Feed claiming verification code
-        verification_code: ''
+#    -
+#        # Where should the widget be placed, left sidebar or right sidebar
+#        position: left
+#        type: subscribe_email
+#        # Hint text under the email input
+#        description:
+#        # Feedburner ID
+#        feedburner_id: ''
+#    # Google AdSense unit configurations
+#    -
+#        # Where should the widget be placed, left sidebar or right sidebar
+#        position: left
+#        type: adsense
+#        # AdSense client ID
+#        client_id: ''
+#        # AdSense AD unit ID
+#        slot_id: ''
+#    # Follow.it email subscription widget configurations
+#    -
+#        # Where should the widget be placed, left sidebar or right sidebar
+#        position: left
+#        type: followit
+#        # Hint text under the email input
+#        description:
+#        # Subscription form action URL
+#        action_url: ''
+#        # Feed claiming verification code
+#        verification_code: ''
 # Plugin configurations
 # https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/
 plugins:
@@ -333,24 +333,24 @@ plugins:
     back_to_top: true
     # Baidu Analytics plugin settings
     # https://tongji.baidu.com
-    baidu_analytics:
-        # Baidu Analytics tracking ID
-        tracking_id: 
-    # Bing Webmaster Tools plugin settings
-    # https://www.bing.com/toolbox/webmaster/
-    bing_webmaster:
-        # Bing Webmaster Tools tracking ID in the <meta> tag
-        tracking_id: 
-    # BuSuanZi site/page view counter
-    # https://busuanzi.ibruce.info
-    busuanzi: false
-    # CNZZ statistics
-    # https://www.umeng.com/web
-    cnzz:
-        # CNZZ tracker id
-        id: 
-        # CNZZ website id
-        web_id: 
+#    baidu_analytics:
+#        # Baidu Analytics tracking ID
+#        tracking_id:
+#    # Bing Webmaster Tools plugin settings
+#    # https://www.bing.com/toolbox/webmaster/
+#    bing_webmaster:
+#        # Bing Webmaster Tools tracking ID in the <meta> tag
+#        tracking_id:
+#    # BuSuanZi site/page view counter
+#    # https://busuanzi.ibruce.info
+#    busuanzi: false
+#    # CNZZ statistics
+#    # https://www.umeng.com/web
+#    cnzz:
+#        # CNZZ tracker id
+#        id:
+#        # CNZZ website id
+#        web_id:
     # Alerting users about the use of cookies
     # https://www.osano.com/cookieconsent/
     cookie_consent:
