@@ -6,6 +6,7 @@ node.js 설치
 ```shell
 $ brew install node@17
 $ npm install -g yarn
+$ npm install -g hexo-cli
 ```
 
 패키지 설치
