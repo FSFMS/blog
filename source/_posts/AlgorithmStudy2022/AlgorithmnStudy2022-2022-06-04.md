@@ -16,6 +16,8 @@ category: AlgorithmStudy2022
 * 포스트 작성자(HEROHJK)인 제가 이어받아 진행하고 있습니다.
 * 중간에 제 권유로 인해 [nomore12](https://github.com/nomore12)님이 합류하게 되었습니다.
 
+<!-- more --> 
+
 ## 진행 방식 및 진행 이력
 * 진행 방식은 매주 유동적으로 설정되고 있습니다.
 * 우선은 Swift로 풀이 가능한 [Programmers](https://programmers.co.kr/)의 레벨1의 모든 문제를 풀어오기로 하였습니다.
