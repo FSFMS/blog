@@ -1,12 +1,15 @@
 ---
-title: 현재까지의 내용 정리
+title: 7주차 내용 정리
 toc: true
 date: 2022-06-07 13:09:00
 tags: [Algorithm, Programmers, 이것이 취업을 위한 코딩 테스트다]
 category: AlgorithmStudy2022
 ---
 
-# 7주차 내용 정리
+금주에는 Programmers 레벨 1 마무리를 하였습니다.
+[[이것이 취업을 위한 코딩 테스트다. with 파이썬 (나동빈 저)]](https://book.naver.com/bookdb/book_detail.nhn?bid=16439154) 책도 진행 예정이었으나, 스터디원들의 사정으로 인해 진행하지 못하였습니다.
+차주에는 위 알고리즘 책을 공부하여 탐욕법과 구현부분을 정리해오려고 합니다.
+
 ## 금주 진행 상황
 
 ### HEROHJK
