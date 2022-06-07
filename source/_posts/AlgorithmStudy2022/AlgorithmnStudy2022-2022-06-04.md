@@ -6,7 +6,7 @@ tags: [Algorithm, Programmers, 이것이 취업을 위한 코딩 테스트다]
 category: AlgorithmStudy2022
 ---
 
-참여자: [HEROHJK](https://github.com/herohjk), [KWiOS0101](https://github.com/kwios0101), [nomore12](https://github.com/nomore12)
+참여자: [HEROHJK](https://github.com/herohjk), [KWiOS0101](https://github.com/kiwoopark), [nomore12](https://github.com/nomore12)
 
 # 현재까지의 진행상황
 ## 시작
