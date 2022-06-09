@@ -3,7 +3,7 @@ version: 4.0.0
 # Icarus theme variant, can be "default" or "cyberpunk"
 variant: default
 # Path or URL to the website's logo
-logo: /img/logo.svg
+logo: /img/logo-png.png
 # Page metadata configurations
 head:
     # URL or path to the website's icon
@@ -106,7 +106,7 @@ navbar:
     # Navigation menu items
     menu:
 #        Home: /
-        FSFMS?: /about
+        FSMS?: /about
         Archives: /archives
         Categories: /categories
         Tags: /tags

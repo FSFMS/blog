@@ -5,7 +5,7 @@ keywords: null
 author: FSFMS
 language: ko
 timezone: Asia/Seoul
-url: https://fsfms.github.io/readme
+url: https://fsfms.github.io
 permalink: ':year/:month/:day/:title/'
 permalink_defaults: null
 pretty_urls:
@@ -67,5 +67,5 @@ archive_generator:
   daily: false
 deploy:
   type: git
-  repo: https://github.com/FSFMS/readme
+  repo: https://github.com/FSFMS/fsfms.github.io
   branch: main
